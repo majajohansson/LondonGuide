@@ -1,0 +1,177 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Georgia", Arial;
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: fixed;
+  top: 0;
+}
+
+.menu {
+  position: absolute;
+  left: 40px;
+}
+
+.social_media {
+  position: absolute;
+  right: 100px;
+}
+
+.upper_menu {
+  display: inline-block;
+  padding-right: 20px;
+  font-weight: 300;
+  color: #808080;
+  margin: 13px 0px;
+}
+
+.upper_menu:hover {
+  opacity: 0.7;
+}
+
+.social_media_icon {
+  display: inline-block;
+  vertical-align: top;
+  margin: 9px 15px;
+}
+
+.social_media_icon:hover {
+  opacity: 0.7;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header .menu p {
+  font-family: "Arial";
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 13px;
+  font-family: "Arial";
+}
+
+.main_wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.title {
+  width: 100%;
+  height: 28.2vw;
+  text-align: center;
+  background: url('pictures/header3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title .title_box {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 40%;
+  margin: auto;
+}
+
+.title .title_box h1 {
+  font-family: "Didot", "Apple Chancery", "Times New Roman";
+  font-size: 36px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.title .title_box p {
+  font-size: 10px;
+}
+
+.menu_picture {
+  display: inline-block;
+  width: 29.33%;
+  padding-top: 29.33%;
+  margin: 2%;
+  font-size: 1rem;
+  position: relative;
+}
+
+.menu_picture:hover {
+  opacity: 0.8;
+}
+
+.menu_picture.shopping {
+  background: url('pictures/catwalk.png');
+  background-size: contain;
+}
+
+.menu_picture.aesthetic {
+  background: url('pictures/peggyporschen.png');
+  background-size: contain;
+}
+
+.menu_picture.todo {
+  background: url('pictures/skygarden.png');
+  background-size: contain;
+}
+.menu_picture.see {
+  background: url('pictures/stpauls.png');
+  background-size: contain;
+}
+
+.menu_picture.daytrips {
+  background: url('pictures/brighton.png');
+  background-size: contain;
+}
+
+.menu_picture.getaround {
+  background: url('pictures/bus.png');
+  background-size: contain;
+}
+
+.menu_picture .menu_picture_title {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  text-align: center;
+  background: rgba(255,255,255,0.8);
+  padding: 10%;
+}
+
+article {
+  background-color: white;
+  width: 70%;
+  padding: 0.3%;
+  display: block;
+  margin: auto;
+  margin-top: -4vw;
+  font-size: 0;
+}
+
+.footer_background {
+  background-color: black;
+  height: 350px;
+  width: 100%;
+}
+
+.footer_text {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 200px;
+  font-weight: 200;
+  font-size: 11px;
+}
+
+.topshop_pic {
+  width: 40%;
+  margin: 20px;
+}
